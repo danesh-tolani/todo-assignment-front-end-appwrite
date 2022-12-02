@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { loginUser } from "../utils/handleLogin";
 import "./Login.css";
 
 // * appwrite

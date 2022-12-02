@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { registerUser } from "../utils/handleLogin";
 import { useNavigate } from "react-router-dom";
 import "./Register.css";
 // * appwrite
