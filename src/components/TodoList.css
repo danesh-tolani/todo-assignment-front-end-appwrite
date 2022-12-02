@@ -1,0 +1,31 @@
+/* .scroll-bar-custom  */
+.scroll-bar-custom::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+  }
+  
+  .scroll-bar-custom::-webkit-scrollbar-track {
+    background: transparent       /* color of the tracking area */
+  }
+  
+  .scroll-bar-custom::-webkit-scrollbar-thumb {
+    background: rgba(250, 248, 248, 0.6);
+    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid transparent;  /* creates padding around scroll thumb */
+  }
+
+  .glass {
+    background: rgba(250, 248, 248, 0.384);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+
+  .add-todo-glass {
+    background: rgba(250, 248, 248, 0.729);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
